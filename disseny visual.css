@@ -1,0 +1,70 @@
+
+p {
+  color: black;
+  font-size: 16px;
+}
+
+h1 {
+  color: rgb(0, 0, 255);
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+}
+
+a {
+  border-bottom: 1px dotted #333;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom-style: solid;
+  color: red;
+}
+
+
+.perfil {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+#principal {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+li:first-child {
+  font-style: italic;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+
+#llista > li {
+  margin-bottom: 8px;
+}
+
+
+h2::before {
+  content: "▸";
+  color: blue;
+}
+
+h1::after {
+  content: "";
+  font-size: 18px;
+  color: gray;
+}
